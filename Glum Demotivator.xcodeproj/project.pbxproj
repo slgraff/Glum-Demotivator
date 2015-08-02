@@ -1,0 +1,432 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		47D1440E1B6EA9C100D25CE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1440D1B6EA9C100D25CE9 /* AppDelegate.swift */; };
+		47D144101B6EA9C100D25CE9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D1440F1B6EA9C100D25CE9 /* ViewController.swift */; };
+		47D144131B6EA9C100D25CE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47D144111B6EA9C100D25CE9 /* Main.storyboard */; };
+		47D144151B6EA9C100D25CE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47D144141B6EA9C100D25CE9 /* Images.xcassets */; };
+		47D144181B6EA9C100D25CE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47D144161B6EA9C100D25CE9 /* LaunchScreen.xib */; };
+		47D144241B6EA9C100D25CE9 /* Glum_DemotivatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47D144231B6EA9C100D25CE9 /* Glum_DemotivatorTests.swift */; };
+		47D1442F1B6EAA0D00D25CE9 /* Glum We're Doomed!.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 47D1442D1B6EAA0D00D25CE9 /* Glum We're Doomed!.mp3 */; };
+		47D144301B6EAA0D00D25CE9 /* glum.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47D1442E1B6EAA0D00D25CE9 /* glum.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		47D1441E1B6EA9C100D25CE9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47D144001B6EA9C100D25CE9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47D144071B6EA9C100D25CE9;
+			remoteInfo = "Glum Demotivator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		47D144081B6EA9C100D25CE9 /* Glum Demotivator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Glum Demotivator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D1440C1B6EA9C100D25CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D1440D1B6EA9C100D25CE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		47D1440F1B6EA9C100D25CE9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		47D144121B6EA9C100D25CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47D144141B6EA9C100D25CE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		47D144171B6EA9C100D25CE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		47D1441D1B6EA9C100D25CE9 /* Glum DemotivatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Glum DemotivatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		47D144221B6EA9C100D25CE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47D144231B6EA9C100D25CE9 /* Glum_DemotivatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Glum_DemotivatorTests.swift; sourceTree = "<group>"; };
+		47D1442D1B6EAA0D00D25CE9 /* Glum We're Doomed!.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Glum We're Doomed!.mp3"; sourceTree = "<group>"; };
+		47D1442E1B6EAA0D00D25CE9 /* glum.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = glum.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		47D144051B6EA9C100D25CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D1441A1B6EA9C100D25CE9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		47D143FF1B6EA9C100D25CE9 = {
+			isa = PBXGroup;
+			children = (
+				47D1440A1B6EA9C100D25CE9 /* Glum Demotivator */,
+				47D144201B6EA9C100D25CE9 /* Glum DemotivatorTests */,
+				47D144091B6EA9C100D25CE9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		47D144091B6EA9C100D25CE9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				47D144081B6EA9C100D25CE9 /* Glum Demotivator.app */,
+				47D1441D1B6EA9C100D25CE9 /* Glum DemotivatorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		47D1440A1B6EA9C100D25CE9 /* Glum Demotivator */ = {
+			isa = PBXGroup;
+			children = (
+				47D1440D1B6EA9C100D25CE9 /* AppDelegate.swift */,
+				47D1440F1B6EA9C100D25CE9 /* ViewController.swift */,
+				47D144111B6EA9C100D25CE9 /* Main.storyboard */,
+				47D144141B6EA9C100D25CE9 /* Images.xcassets */,
+				47D144161B6EA9C100D25CE9 /* LaunchScreen.xib */,
+				47D1440B1B6EA9C100D25CE9 /* Supporting Files */,
+			);
+			path = "Glum Demotivator";
+			sourceTree = "<group>";
+		};
+		47D1440B1B6EA9C100D25CE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47D1442D1B6EAA0D00D25CE9 /* Glum We're Doomed!.mp3 */,
+				47D1442E1B6EAA0D00D25CE9 /* glum.jpg */,
+				47D1440C1B6EA9C100D25CE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		47D144201B6EA9C100D25CE9 /* Glum DemotivatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				47D144231B6EA9C100D25CE9 /* Glum_DemotivatorTests.swift */,
+				47D144211B6EA9C100D25CE9 /* Supporting Files */,
+			);
+			path = "Glum DemotivatorTests";
+			sourceTree = "<group>";
+		};
+		47D144211B6EA9C100D25CE9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				47D144221B6EA9C100D25CE9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		47D144071B6EA9C100D25CE9 /* Glum Demotivator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D144271B6EA9C100D25CE9 /* Build configuration list for PBXNativeTarget "Glum Demotivator" */;
+			buildPhases = (
+				47D144041B6EA9C100D25CE9 /* Sources */,
+				47D144051B6EA9C100D25CE9 /* Frameworks */,
+				47D144061B6EA9C100D25CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Glum Demotivator";
+			productName = "Glum Demotivator";
+			productReference = 47D144081B6EA9C100D25CE9 /* Glum Demotivator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47D1441C1B6EA9C100D25CE9 /* Glum DemotivatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47D1442A1B6EA9C100D25CE9 /* Build configuration list for PBXNativeTarget "Glum DemotivatorTests" */;
+			buildPhases = (
+				47D144191B6EA9C100D25CE9 /* Sources */,
+				47D1441A1B6EA9C100D25CE9 /* Frameworks */,
+				47D1441B1B6EA9C100D25CE9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47D1441F1B6EA9C100D25CE9 /* PBXTargetDependency */,
+			);
+			name = "Glum DemotivatorTests";
+			productName = "Glum DemotivatorTests";
+			productReference = 47D1441D1B6EA9C100D25CE9 /* Glum DemotivatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		47D144001B6EA9C100D25CE9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Stephen Graff";
+				TargetAttributes = {
+					47D144071B6EA9C100D25CE9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					47D1441C1B6EA9C100D25CE9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 47D144071B6EA9C100D25CE9;
+					};
+				};
+			};
+			buildConfigurationList = 47D144031B6EA9C100D25CE9 /* Build configuration list for PBXProject "Glum Demotivator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 47D143FF1B6EA9C100D25CE9;
+			productRefGroup = 47D144091B6EA9C100D25CE9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47D144071B6EA9C100D25CE9 /* Glum Demotivator */,
+				47D1441C1B6EA9C100D25CE9 /* Glum DemotivatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		47D144061B6EA9C100D25CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D1442F1B6EAA0D00D25CE9 /* Glum We're Doomed!.mp3 in Resources */,
+				47D144301B6EAA0D00D25CE9 /* glum.jpg in Resources */,
+				47D144131B6EA9C100D25CE9 /* Main.storyboard in Resources */,
+				47D144181B6EA9C100D25CE9 /* LaunchScreen.xib in Resources */,
+				47D144151B6EA9C100D25CE9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D1441B1B6EA9C100D25CE9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		47D144041B6EA9C100D25CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D144101B6EA9C100D25CE9 /* ViewController.swift in Sources */,
+				47D1440E1B6EA9C100D25CE9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47D144191B6EA9C100D25CE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D144241B6EA9C100D25CE9 /* Glum_DemotivatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		47D1441F1B6EA9C100D25CE9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47D144071B6EA9C100D25CE9 /* Glum Demotivator */;
+			targetProxy = 47D1441E1B6EA9C100D25CE9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		47D144111B6EA9C100D25CE9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47D144121B6EA9C100D25CE9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47D144161B6EA9C100D25CE9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47D144171B6EA9C100D25CE9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		47D144251B6EA9C100D25CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		47D144261B6EA9C100D25CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		47D144281B6EA9C100D25CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Glum Demotivator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		47D144291B6EA9C100D25CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Glum Demotivator/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		47D1442B1B6EA9C100D25CE9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Glum DemotivatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glum Demotivator.app/Glum Demotivator";
+			};
+			name = Debug;
+		};
+		47D1442C1B6EA9C100D25CE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Glum DemotivatorTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Glum Demotivator.app/Glum Demotivator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		47D144031B6EA9C100D25CE9 /* Build configuration list for PBXProject "Glum Demotivator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D144251B6EA9C100D25CE9 /* Debug */,
+				47D144261B6EA9C100D25CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47D144271B6EA9C100D25CE9 /* Build configuration list for PBXNativeTarget "Glum Demotivator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D144281B6EA9C100D25CE9 /* Debug */,
+				47D144291B6EA9C100D25CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		47D1442A1B6EA9C100D25CE9 /* Build configuration list for PBXNativeTarget "Glum DemotivatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D1442B1B6EA9C100D25CE9 /* Debug */,
+				47D1442C1B6EA9C100D25CE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 47D144001B6EA9C100D25CE9 /* Project object */;
+}
